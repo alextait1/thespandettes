@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding-bottom: 2rem;
+}
+
+header nav {
+    width: 60%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav {
+    width: 50%;
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    background-color: black;
+    height: 10rem;
+}
+
+.cover {
+    width: 100%;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-link a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link p {
+    padding: 0;
+    margin: 0.3rem 0 0 0;
+}
+
+.nav-list {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+p, a {
+    color:white;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    color:white;
+    height: 3rem;
+    fill:white;
+}
+
+.logo-img-png {
+    filter: brightness(0) invert(1);
+}
+
+ul {
+    padding: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 980px) {
+    header nav {
+        width: 70%;
+    }
+}
+
+@media (max-width: 780px) {
+    header nav {
+        width: 80%;
+    }
+}
+
+@media (max-width: 680px) {
+    p {
+        font-size: 0.9rem;
+    }
+
+    .logo-img {
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+   .logo {
+        height: 5rem;
+   }
+   header nav {
+    width: 100%;
+}
+
+footer nav {
+    width: 70%;
+}
+}
+
+@media (max-width: 380px) {
+
+    header nav {
+         width: 100%;
+         
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav .nav-link {
+        margin-top: 0.7rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    footer nav {
+        width: 80%
+    }
+ }
+
